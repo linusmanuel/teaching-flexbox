@@ -24,7 +24,10 @@ html {
   font-size: 2rem;
 }
 .flex-item:first-child {
+  display: flex;
+  align-items: end;
   padding: 12px;
+  height: 100vh;
 }
 
 .flex-item:last-child {
