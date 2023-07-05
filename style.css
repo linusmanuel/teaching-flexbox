@@ -4,11 +4,17 @@
   padding: 10px;
   gap: 10px;
   height: 540px;
-  justify-content: center; /* center, end, space-between, space-around, etc.*/
+  justify-content:start; /* center, end, space-between, space-around, etc.*/
+  align-items: start;
+  flex-wrap: wrap;
 }
 
 .flex-item {
   background-color: wheat;
-  width: 100px;
+  width: 300px;
   height: 100px;
+}
+
+.item-2 {
+  /* height: 250px; */
 }
