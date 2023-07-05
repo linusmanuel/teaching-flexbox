@@ -6,15 +6,33 @@
   height: 540px;
   justify-content:start; /* center, end, space-between, space-around, etc.*/
   align-items: start;
-  flex-wrap: wrap;
+  overflow: scroll;
 }
 
+.flex-container {
+  box-shadow: 5px 5px 10px black;
+}
 .flex-item {
   background-color: wheat;
   width: 300px;
   height: 100px;
 }
+.flex-item:first-child {
+  padding: 12px;
+}
+
+.flex-item:last-child {
+  background-color: blue;
+  color: azure;
+}
 
 .item-2 {
-  /* height: 250px; */
+  background-color: blueviolet;
+}
+
+.cabecalho, 
+.corpo, 
+.rodape {
+  background-color: orange;
+  margin-bottom: 10px;
 }
