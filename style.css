@@ -1,0 +1,14 @@
+.flex-container {
+  display: flex;
+  background-color: red;
+  padding: 10px;
+  gap: 10px;
+  height: 540px;
+  justify-content: center; /* center, end, space-between, space-around, etc.*/
+}
+
+.flex-item {
+  background-color: wheat;
+  width: 100px;
+  height: 100px;
+}
